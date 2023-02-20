@@ -1,6 +1,6 @@
 {
   "name": "@proton/ual-webauth",
-  "version": "0.1.10",
+  "version": "0.1.11",
   "main": "dist/index.js",
   "license": "MIT",
   "author": {
@@ -20,11 +20,14 @@
   "dependencies": {
     "@greymass/eosio": "^0.6.0",
     "@proton/web-sdk": "^4.2.12",
+    "bufferutil": "^4.0.7",
     "cache-base": "4.0.2",
     "elliptic": "6.5.4",
+    "encoding": "^0.1.13",
     "eosio-signing-request": "^2.5.0",
     "eosjs": "^22.1.0",
-    "universal-authenticator-library": "0.3.0"
+    "universal-authenticator-library": "0.3.0",
+    "utf-8-validate": "^5.0.10"
   },
   "resolutions": {
     "cache-base": "4.0.0"
