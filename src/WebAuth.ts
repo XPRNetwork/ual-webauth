@@ -178,6 +178,8 @@ export class WebAuth extends Authenticator {
         
                 if (session) {
                     this.users = [new WebAuthUser(this.link?.client, { session })];    
+                } else {
+                    throw new Error("No session returned from login");
                 }
             }
         } catch (e: any) {
