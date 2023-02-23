@@ -639,10 +639,10 @@
   dependencies:
     "@greymass/eosio" "^0.6.1"
 
-"@proton/web-sdk@^4.2.12":
-  "integrity" "sha512-0mrT+wUNqHNshVIPhBKzkAIqbBA9EycndNQvSXqmSIe/theYqah9AiS6Npkg2uzcd9W2er/GTIpcIrpbSmFdlA=="
-  "resolved" "https://registry.npmjs.org/@proton/web-sdk/-/web-sdk-4.2.12.tgz"
-  "version" "4.2.12"
+"@proton/web-sdk@^4.2.14":
+  "integrity" "sha512-Exe9kceMSw740nQDi6nieV9+64FxcSoNAvI+4jHEXjWN3NwjL8ERSxcVfemD9YykS+MabVlpAwCgC0c4vQngFA=="
+  "resolved" "https://registry.npmjs.org/@proton/web-sdk/-/web-sdk-4.2.14.tgz"
+  "version" "4.2.14"
   dependencies:
     "@greymass/eosio" "^0.6.1"
     "@proton/browser-transport" "^4.2.12"
